@@ -1,44 +1,59 @@
-# Pizza Sales Insights – SQL Project
-This project involves analyzing a pizza sales dataset using structured SQL queries to uncover key business insights.
-The analysis covers total revenue, order patterns, pizza preferences, and performance breakdowns by type, size, and time.
+# Pizza Sales Insights – SQL + Power BI Project
+An end-to-end data analytics project using *MySQL* and *Power BI* to analyze and visualize pizza sales data. 
+This project demonstrates how to extract actionable insights from raw sales data, enhance understanding of customer behavior, and support decision-making using both SQL and interactive dashboards.
 
 ## Project Objective
-To perform end-to-end SQL analysis on pizza sales data and answer key business questions, categorized into Basic, Intermediate, and Advanced levels.
+To perform structured analysis on pizza sales data using *SQL* and visualize key business insights through a *Power BI dashboard*. 
+The project is divided into Basic, Intermediate, and Advanced analysis levels.
 
-## Key Insights Uncovered
+## Business Questions Answered
 
-### Basic Level
-- Total number of orders placed
-- Total revenue generated from pizza sales
-- Highest-priced pizza
-- Most commonly ordered pizza size
-- Top 5 most ordered pizza types (by quantity)
+### Basic Analysis
+- Total number of orders
+- Total revenue generated
+- Most expensive pizza
+- Most ordered pizza size
+- Top 5 most popular pizza types (by quantity)
 
-### Intermediate Level
-- Quantity sold for each pizza category
-- Order distribution by hour of the day
-- Category-wise pizza distribution
+### Intermediate Analysis
+- Quantity sold per category (Classic, Supreme, Veggie, etc.)
+- Hourly order distribution
+- Category-wise order comparison
 - Average number of pizzas ordered per day
-- Top 3 pizzas by revenue
+- Top 3 pizzas by total revenue
 
-### Advanced Level
-- Revenue contribution percentage by each pizza type
-- Cumulative revenue generated over time
-- Top 3 pizzas by revenue in each pizza category
+### Advanced Analysis
+- Revenue contribution % by pizza type
+- Monthly cumulative revenue trends
+- Top 3 revenue-generating pizzas in each category
 
-## Skills Used
-- SQL Joins and Aggregations
+## Power BI Dashboard
+
+The dashboard includes:
+- *KPI Cards*: Total Orders, Revenue, Total Pizzas Sold
+- *Pie & Bar Charts*: Revenue by category and pizza type
+- *Line Charts*: Cumulative revenue over time, daily order trends
+- *Slicers*: Filter by pizza category and size
+- *Top 5 Pizza Types*: Based on quantity sold
+
+📷 _Screenshots of dashboard included in /images folder._
+
+
+## Skills & Concepts Used
+- SQL Joins, Aggregations, Grouping
 - Window Functions (RANK)
-- Common Table Expressions (CTEs) and Subqueries
-- Date and Time Functions
-- Analytical Thinking
-
+- CTEs & Subqueries
+- Date and Time functions
+- Power BI (DAX, Power Query, Card KPIs, Slicers, Drillthrough)
+- Analytical & Business Thinking
+  
 ## Tools Used
-- SQL (MySQL)
+- MySQL Workbench
+- Power BI Desktop
 - Visual Studio Code
-- GitHub for version control and publishing
+- Git & GitHub
 
 ## Summary
-This project demonstrates the ability to analyze real-world sales data using SQL and generate insights across business operations.
-It serves as a strong portfolio project highlighting SQL skills, data thinking, and reporting clarity.
+This project showcases how to use *SQL* for data analysis and *Power BI* for data visualization to draw actionable insights from real-world sales data. 
+It’s an ideal portfolio project for aspiring data analysts or business intelligence professionals.
 
