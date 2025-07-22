@@ -36,7 +36,7 @@ The dashboard includes:
 - *Slicers*: Filter by pizza category and size
 - *Top 5 Pizza Types*: Based on quantity sold
 
-📷 _Screenshots of dashboard included in /images folder._
+📷 _Screenshots of dashboard included_(https://github.com/vidhi0528/pizza-sales-sql-project/blob/main/dashboard-preview1.png)
 
 
 ## Skills & Concepts Used
